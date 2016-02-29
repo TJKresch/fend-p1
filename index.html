@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<!-- saved from url=(0097)https://storage.googleapis.com/supplemental_media/udacityu/2730818600/bootstrap-prestructure.html -->
 <html>
 <head lang="en">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet'>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
-  <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </head>
 
 <body data-spy="scroll" data-target="#navbar-holder">
-<!-- Fixed navbar -->
+<!-- Bootstrap Fixed Navbar: Template adapted from https://getbootstrap.com/examples/navbar-fixed-top/ -->
 <div id="navbar-holder">
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -40,11 +39,10 @@
             </ul>
           </li>
         </ul>
-      </div><!--/.nav-collapse -->
+      </div>
     </div>
   </nav>
 </div>
-
 
 <div class="container">
   <header>
@@ -104,7 +102,8 @@
     </header>
     <div class="row text-center work-row">
       <div class="col-md-4 col-sm-6 ">
-        <img alt="" src="images/construction_555x300.jpeg" srcset="images/construction_555x300.jpeg 555w, images/construction_278x150.jpeg 278w" sizes="(min-width: 768px) 50vw, (min-width: 991px) 34vw, 100vw" class="item-image img-responsive center-block">
+        <!-- Note: This image's CC BY-NA-ND license disallows distribution of "derivative works". Unclear if this applies to different resolutions, so have only included the original. -->
+        <img alt="" src="images/construction_555x300.jpeg" class="item-image img-responsive center-block">
         <p class="text-uppercase title-item">Vacay</p>
         <a href="#" class="link-item">Link to project</a>
       </div>
@@ -137,7 +136,7 @@
   </section>
 </div>
 
-    <!-- Modal -->
+    <!-- Modals adapted from examples at https://getbootstrap.com -->
 <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project1Label" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -236,10 +235,29 @@
 
 <footer class="footer">
   <div class="container">
-    <ul class="list-unstyled text-muted">
-      <li>Created By: <em>Tyler Kresch</em></li>
-      <li>Email: <a class="link-item" href="mailto:tyler@kresch.me">tyler@kresch.me</a></li>
-    </ul>
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3 text-muted" id="copyright">
+        <h5 class="footer-heading">Copyright and Attributions</h5>
+        <ul class="list-unstyled">
+          <li>The "TK Technology &amp; Consulting" logo is copyright Tyler Kresch (2015).</li>
+          <li>All other images used on this page are either public domain images or are used in compliance with their respective Creative Commons Licenses.</li>
+          <li>
+            <a class="footer-link" href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">Creative Commons CC0</a> public domain images were obtained from <a class="footer-link" href="http://pixabay.com">pixabay.com</a>
+          </li>
+          <li>
+            Each image used under a license requiring attribution has text overlaid on the top-left corner of the image to indicate the applicable Creative Commons license and text overlaid on the bottom-left corner of the image to indicate the original piece name the original author's name (or pseudonym). These images were sourced from <a class="footer-link" href="http://loremflickr.com/">loremflickr.com</a> where the attribution text was added.
+          </li>
+        </ul>
+        <h5 class="footer-heading">Disclosures required by licenses</h5>
+        <p>Lower-resolution versions of some images were created in comliance with each image's individual license to optimize broswer performance. No other alterations were made.</p>
+        <h5 class="footer-heading">Links to original licenses</h5>
+        <ul class="list-unstyled">
+          <li><a class="footer-link" href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC-NC-ND</a></li>
+          <li><a class="footer-link" href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC-NC-SA</a></li>
+          <li><a class="footer-link" href="https://creativecommons.org/licenses/by-nc/2.0/">CC-NC</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
 </footer>
 
