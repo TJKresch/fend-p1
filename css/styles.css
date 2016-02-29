@@ -1,0 +1,122 @@
+/* Page styles
+-------------------------------------------------- */
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #747704;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.link-item {
+  color: #747704;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.text-muted {
+  color: #bcbbbb;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-logo {
+  margin-top: 40px;
+}
+
+.services-row .title-item {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.work-row .title-item {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.work-row div {
+  padding-bottom: 20px;
+}
+
+.item-image {
+  max-height: 300px;
+}
+
+.services-row .item-image {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.services-row .item-image:hover {
+  opacity: 0.7;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 40px;
+}
+
+.hr-thick {
+    border: none;
+    height: 4px;
+    /* Set the hr color */
+    color: #bcbbbb; /* old IE */
+    background-color: #bcbbbb; /* Modern Browsers */
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.footer .container {
+  margin-top: 5px;
+}
+
+/* Navbar styles
+-------------------------------------------------- */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+
+/* Media queries
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  .title-super {
+    font-size: 60px;
+  }
+
+  .section-heading {
+    text-align: left;
+    font-size: 30px;
+  }
+
+  .work-row .title-item {
+    font-size: 35px;
+  }
+
+  .services-row .title-item {
+    font-size: 20px;
+  }
+}

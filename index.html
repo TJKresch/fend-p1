@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<!-- saved from url=(0097)https://storage.googleapis.com/supplemental_media/udacityu/2730818600/bootstrap-prestructure.html -->
+<html>
+<head lang="en">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-holder">
+<!-- Fixed navbar -->
+<div id="navbar-holder">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="">Portfolio</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#content-row-1">Services</a></li>
+          <li><a href="#content-row-2">Featured Work</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="mailto:tyler@kresch.me">Email</a></li>
+              <li><a href="https://www.linkedin.com/in/tylerkresch">LinkedIn</a></li>
+              <li><a href="https://github.com/TJKresch">GitHub</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+</div>
+
+
+<div class="container">
+  <header>
+    <div class="row">
+      <div class="col-sm-4 hidden-xs">
+        <img alt="TK Technology and Consulting." src="images/portfolio_logo_small.jpg" class="title-logo img-responsive">
+      </div>
+      <div class="col-sm-8 col-xs-12 text-right text-uppercase">
+        <h1 class="text-thin title-super">Tyler Kresch</h1>
+        <h3>Independent Software Developer</h3>
+        <h5 class="visible-xs">TK Technology &amp; Consulting</h5>
+        <h5>tyler@kresch.me</h5>
+      </div>
+    </div>
+    <hr class="hr-thick">
+  </header>
+  <div class="row">
+    <div class="col-md-12">
+      <img alt="" src="images/portfolio_banner.jpg" srcset="images/portfolio_banner_1280.jpg 1280w, images/portfolio_banner_940.jpg 940w" sizes="100vw" class="img-responsive visible-md visible-lg">
+    </div>
+  </div>
+  <section>
+    <header>
+      <div id="content-row-1" class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted section-heading">Services</h2>
+        </div>
+      </div>
+    </header>
+    <div class="row text-center services-row">
+      <div class="col-md-3 col-sm-6">
+        <p class="text-uppercase title-item">Consulting</p>
+        <img alt="Details" src="images/consulting_640.jpg" srcset="images/consulting_640.jpg 640w, images/consulting_320.jpg 320w" sizes="(min-width: 768px) 50vw, (min-width: 991px) 25vw, 100vw" id="consult-image" class="item-image img-responsive center-block" data-toggle="modal" data-target="#project3">
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <p class="text-uppercase title-item">Mobile/Web Dev</p>
+        <img alt="Details" src="images/devices_640.jpg" srcset="images/devices_640.jpg 640w, images/devices_320.jpg 320w" sizes="(min-width: 768px) 50vw, (min-width: 991px) 25vw, 100vw" class="item-image img-responsive center-block" data-toggle="modal" data-target="#project1">
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <p class="text-uppercase title-item">Digital Marketing</p>
+        <img alt="Details" src="images/seo_640.jpg" srcset="images/seo_640.jpg 640w, images/seo_320.jpg 320w" sizes="(min-width: 768px) 50vw, (min-width: 991px) 25vw, 100vw" class="item-image img-responsive center-block" data-toggle="modal" data-target="#project2">
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <p class="text-uppercase title-item">Optimize Everything</p>
+        <img alt="Details" src="images/shop_640.jpg" srcset="images/shop_640.jpg 640w, images/shop_320.jpg 320w" sizes="(min-width: 768px) 50vw, (min-width: 991px) 25vw, 100vw" class="item-image img-responsive center-block" data-toggle="modal" data-target="#project4">
+      </div>
+    </div>
+  </section>
+
+  <hr class="hr-thick hidden-md hidden-lg">
+
+  <section>
+    <header id="content-row-2" class="row">
+      <div class="col-md-12">
+        <h2 class="text-muted section-heading">Featured Work</h2>
+      </div>
+    </header>
+    <div class="row text-center work-row">
+      <div class="col-md-4 col-sm-6 ">
+        <img alt="" src="images/construction_555x300.jpeg" srcset="images/construction_555x300.jpeg 555w, images/construction_278x150.jpeg 278w" sizes="(min-width: 768px) 50vw, (min-width: 991px) 34vw, 100vw" class="item-image img-responsive center-block">
+        <p class="text-uppercase title-item">Vacay</p>
+        <a href="#" class="link-item">Link to project</a>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img alt="" src="images/handshake_555x300.jpeg" srcset="images/handshake_555x300.jpeg 555w, images/handshake_278x150.jpeg 278w" sizes="(min-width: 768px) 50vw, (min-width: 991px) 34vw, 100vw" class="item-image img-responsive center-block">
+        <p class="text-uppercase title-item">Base Assembly</p>
+        <a href="#" class="link-item">Link to project</a>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img alt="" src="images/nuts_555x300.jpeg" srcset="images/nuts_555x300.jpeg 555w, images/nuts_278x150.jpeg 278w" sizes="(min-width: 768px) 50vw, (min-width: 991px) 34vw, 100vw" class="item-image img-responsive center-block">
+        <p class="text-uppercase title-item">Flower.js</p>
+        <a href="#" class="link-item">Link to project</a>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img alt="" src="images/vancam_555x300.jpeg" srcset="images/vancam_555x300.jpeg 555w, images/vancam_278x150.jpeg 278w" sizes="(min-width: 768px) 50vw, (min-width: 991px) 34vw, 100vw" class="item-image img-responsive center-block">
+        <p class="text-uppercase title-item">AppCore</p>
+        <a href="#" class="link-item">Link to project</a>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img alt="" src="images/stoplight_555x300.jpeg" srcset="images/stoplight_555x300.jpeg 555w, images/stoplight_278x150.jpeg 278w" sizes="(min-width: 768px) 50vw, (min-width: 991px) 34vw, 100vw" class="item-image img-responsive center-block">
+        <p class="text-uppercase title-item">Candidia</p>
+        <a href="#" class="link-item">Link to project</a>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img alt="" src="images/sunflower_555x300.jpeg" srcset="images/sunflower_555x300.jpeg 555w, images/sunflower_278x150.jpeg 278w" sizes="(min-width: 768px) 50vw, (min-width: 991px) 34vw, 100vw" class="item-image img-responsive center-block">
+        <p class="text-uppercase title-item">eyesCV</p>
+        <a href="#" class="link-item">Link to project</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+    <!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project1Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title" id="project1Label">Mobile and Web Development</h4>
+      </div>
+      <div class="modal-body">
+        <div class="hidden-xs">
+          <img alt="" class="item-image img-responsive center-block" src="images/devices_640.jpg" srcset="images/devices_640.jpg 640w, images/devices_320.jpg 320w" sizes="425px">
+          <hr>
+        </div>
+        <p>
+          Let me help you bring your idea to life. I work with my clients to refine
+          their ideas and transform them into beautiful applications designed to be
+          robust, scalable, extensible, and secure from day-one.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="project2Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title" id="project2Label">Digital Marketing</h4>
+      </div>
+      <div class="modal-body">
+        <div class="hidden-xs">
+          <img alt="" class="item-image img-responsive center-block" src="images/seo_640.jpg" srcset="images/seo_640.jpg 640w, images/seo_320.jpg 320w" sizes="425px">
+          <hr>
+        </div>
+        <p>
+          What good is a website if nobody can find it? Drive more users to your site
+          with Search Engine Optimization (SEO) and a multifaceted digital marketing strategy.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="project3Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title" id="project3Label">Consulting</h4>
+      </div>
+      <div class="modal-body">
+        <div class="hidden-xs">
+          <img alt="" class="item-image img-responsive center-block" src="images/consulting_640.jpg" srcset="images/consulting_640.jpg 640w, images/consulting_320.jpg 320w" sizes="425px">
+          <hr>
+        </div>
+        <p>
+          Most web development professionals can give you "exactly what you asked for."
+          But that's not always enough. I've worked with multiple successful startups
+          and will happily share the experience and best-practices I've gained while
+          growing them.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="project4Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title" id="project4Label">Conversion Rate Optimization</h4>
+      </div>
+      <div class="modal-body">
+        <div class="hidden-xs">
+          <img alt="" class="item-image img-responsive center-block" src="images/shop_640.jpg" srcset="images/shop_640.jpg 640w, images/shop_320.jpg 320w" sizes="425px">
+          <hr>
+        </div>
+        <p>
+          Increase your revenues without having to grow your user-base with the power of CRO.
+          Well-designed sales-pathways can increase the number and size of conversions. Let me
+          show you how.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <ul class="list-unstyled text-muted">
+      <li>Created By: <em>Tyler Kresch</em></li>
+      <li>Email: <a class="link-item" href="mailto:tyler@kresch.me">tyler@kresch.me</a></li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>
